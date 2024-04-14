@@ -18,6 +18,13 @@
     "categories": ["all", "media"]
   },
   {
+    "name": "Steam",
+    "link": "https://steampowered.com/",
+    "image": "/assets/media/icons/steam.ico",
+    "categories": ["all"],
+    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
+  },
+  {
     "name": "BuzzFeed Quizzes",
     "link": "https://buzzfeed.com/quizzes",
     "image": "/assets/media/icons/buzzfeed.webp",
@@ -175,10 +182,8 @@
   },
   {
     "name": "Spotify",
-    "link": "https://open.spotify.com",
     "image": "/assets/media/icons/spotify.webp",
     "categories": ["all", "media"],
-    "say": "Spotify is currently not working on the proxy.",
     "error": true
   },
   {
@@ -225,16 +230,15 @@
   },
   {
     "name": "YouTube",
-    "link": "https://youtube.com",
     "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"],
     "error": true,
-    "say": "YouTube is currently not working."
+    "say": "YouTube is currently not working. Use Invidious Instead."
   },
   {
-    "name": "Invidous (YouTube)",
+    "name": "YouTube (Invidious)",
     "link": "https://vid.puffyan.us/",
-    "image": "/assets/media/icons/iv.webp",
+    "image": "/assets/media/icons/youtube.webp",
     "categories": ["all", "social", "stream", "media"]
   },
   {
@@ -298,5 +302,45 @@
     "link": "https://gemini.google.com",
     "image": "/assets/media/icons/gemini.webp",
     "categories": ["all", "ai"]
+  },
+  {
+    "name": "Google Mail (Gmail)",
+    "link": "https://mail.google.com/",
+    "image": "/assets/media/icons/gmail.webp",
+    "categories": ["all", "mail"],
+    "blank": "true",
+    "partial": "true"
+  },
+  {
+    "name": "Outlook",
+    "link": "https://outlook.live.com/",
+    "image": "/assets/media/icons/outlook.webp",
+    "categories": ["all", "mail"],
+    "dy": "true",
+    "partial": "true"
+  },
+  {
+    "name": "Snapchat",
+    "image": "/assets/media/icons/snap.webp",
+    "categories": ["all", "social", "message", "media"],
+    "error": "true"
+  },
+  {
+    "name": "W3Schools",
+    "link": "https://www.w3schools.com",
+    "image": "/assets/media/icons/W3Schools.png",
+    "categories": ["all"],
+  },
+  {
+    "name": "Newgrounds",
+    "link": "https://www.newgrounds.com",
+    "image": "/assets/media/icons/ng.png",
+    "categories": ["all", "social", "game", "media"],
+  },
+  {
+    "name": "Instagram",
+    "image": "/assets/media/icons/insta.webp",
+    "categories": ["all", "social", "message", "media"],
+    "error": "true"
   }
 ]

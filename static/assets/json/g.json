@@ -25,6 +25,19 @@
     "categories": ["all"]
   },
   {
+    "name": "Pranx",
+    "link": "https://pranx.com/",
+    "image": "/assets/media/icons/pranx.jpg",
+    "categories": ["all"]
+  },
+  {
+    "name": "Steam",
+    "link": "https://steampowered.com/",
+    "image": "/assets/media/icons/steam.ico",
+    "categories": ["all"],
+    "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now."
+  },
+  {
     "name": "Stabfish.io",
     "link": "https://stabfish.io/",
     "image": "/assets/media/icons/stabfish.webp",
@@ -316,12 +329,20 @@
     "name": "Neal.Fun",
     "link": "https://neal.fun",
     "image": "/assets/media/icons/nealfun.webp",
-    "categories": ["all"]
+    "categories": ["all"],
+    "error": "true",
+    "say": "Neal.fun does not work on Interstellar because of Cloudflare protection."
   },
   {
     "name": "YoHoHo.io",
     "link": "https://yohoho.io/",
     "image": "/assets/media/icons/yohoho.webp",
+    "categories": ["all", "2P"]
+  },
+  {
+    "name": "AntWar.io",
+    "link": "https://antwar.io/",
+    "image": "/assets/media/icons/antwario.jpg",
     "categories": ["all", "2P"]
   },
   {
@@ -1784,5 +1805,17 @@
     "link": "/e/vex4/index.html",
     "image": "/assets/media/icons/vex4.webp",
     "categories": ["all", "local"]
+  },
+  {
+    "name": "Windows 96",
+    "link": "https://windows96.net",
+    "image": "/assets/media/icons/windows96.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "The Impossible Quiz: Book 2",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=3742",
+    "image": "/assets/media/icons/book2.webp",
+    "categories": ["all", "emu"]
   }
 ]
